@@ -6,7 +6,7 @@ def main():
   quotes = f.readlines()
   f.close()
 
-  last = 13
+  last = 19
   rnd = random.randint(0, last)
 
   print(quotes[rnd])
