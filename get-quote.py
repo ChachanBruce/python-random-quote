@@ -6,10 +6,14 @@ def main():
   quotes = f.readlines()
   f.close()
 
-  last = 19
-  rnd = random.randint(0, last)
+  last_1 = 19
+  rnd_1 = random.randint(0, last_1)
 
-  print(quotes[rnd])
+  last_2 = 19
+  rnd_2 = random.randint(0, last_2)
+
+  print(quotes[rnd_1])
+  print(quotes[rnd_2])
 
 if __name__== "__main__":
   main()
